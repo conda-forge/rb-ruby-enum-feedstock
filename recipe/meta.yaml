@@ -1,5 +1,5 @@
 {% set name = "ruby-enum" %}
-{% set version = "0.7.2" %}
+{% set version = "0.8.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: 1d66e6ccbd65570193858616e181dc7ea82a95c5b4e32f6f9fc6a068e356c240
+  sha256: dcf27c6dc5ea040fd8d5fd14a7dadf201ca718c2c3f296d436ed07f245f76d34
 
 build:
   noarch: generic
